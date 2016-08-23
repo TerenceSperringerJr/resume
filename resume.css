@@ -1,0 +1,57 @@
+/*
+resume.css
+
+css for resume
+*/
+
+
+@media print {
+	.legend {
+		background-color: #FFFFFF;
+		page-break-inside: avoid;
+		page-break-after: avoid;
+	}
+	
+	.item {
+		page-break-inside: avoid;
+	}
+}
+
+fieldset:nth-child(2n) {
+	background-color: #F0F0F0;
+}
+
+fieldset legend {
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+fieldset:nth-child(2n) legend {
+	background: linear-gradient(#FFFFFF, #F0F0F0);
+}
+
+.item-heading {
+	font-size: 1.17em;
+	font-weight: bold;
+}
+
+.vertical-spaced
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sub-section
+{
+	margin-left: 2%;
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h1, h2, h3, h4
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

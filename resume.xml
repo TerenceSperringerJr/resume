@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
+
+<resume>
+	<name>Terence Sperringer, Jr.</name>
+	<linkedin>http://www.linkedin.com/in/tsperringerjr</linkedin>
+	<email>maverickloneshark@gmail.com</email>
+	<phone>724-650-4302</phone>
+	<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>
+
+	<qualifications>I am a long time gamer-turned-developer who is devoted to delivering interactive experiences that touch people's lives</qualifications>
+	<languages>English, Intermediate Level Japanese</languages>
+
+	<work_experience>
+		<!--
+		<job>
+			<company></company>
+			<location></location>
+			<date></date>
+			<position></position>
+			<role>
+				<department></department>
+				<title></title>
+				<tools></tools>
+				<tasks>
+					<task></task>
+				</tasks>
+			</role>
+		</job>
+		-->
+		
+		<job>
+			<company>University of Pittsburgh</company>
+			<location>Pittsburgh, PA</location>
+			<date>2014 - present</date>
+			<position>Software Developer</position>
+			
+			<role>
+				<department>Department of BioMedical Informatics</department>
+				<title>Front-end developer</title>
+				<tools>JavaScript, JQuery, Bootstrap, Java, Play framework</tools>
+				<tasks>
+					<task>Design and implement software</task>
+					<task>Debug code, perform code reviews, and write documentation</task>
+					<task>Participate in daily SCRUMs, client meetings, and technical consulting</task>
+					<task>Manage git code repositories</task>
+				</tasks>
+			</role>
+		</job>
+		
+		<job>
+			<company>GREE International</company>
+			<location>San Francisco, CA</location>
+			<date>2012</date>
+			<position>Games Integration Engineer</position>
+			
+			<role>
+				<department>Sales Engineering</department>
+				<title>Sales Engineer</title>
+				<tools>Unity, GREE Platform SDK, Flurry Analytics</tools>
+				<tasks>
+					<task>Assisted high priority clients by communicating  via Skype, meeting clients in person, researching and suggesting methodologies for analytics, and play-testing apps to be reviewed for the Apple Store and Google Play Store</task>
+					<task>Created sample code and Unity3D demos to help third party developers integrate GREE's platform into their games as well as to assist in debugging client issues</task>
+					<task>Assisted with internal support by reporting discovered issues, creating internal development requests, and resolving problems when capable of preventing unnecessary escalation</task>
+				</tasks>
+			</role>
+		</job>
+		
+		<job>
+			<company>Carnegie Mellon University Entertainment Technology Center</company>
+			<location>Pittsburgh, PA</location>
+			<date>2010 - 2012</date>
+			<position>Staff Engineer</position>
+			
+			<role>
+				<department>Creative Services: Kindworks</department>
+				<title>Interface and Database Programmer</title>
+				<tools>HTML, CSS, JavaScript, MySQL, PHP</tools>
+				<tasks>
+					<task>Designed and queried database, and programmed scripts for altruistic online community website</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>Creative Services: School of Music Social</department>
+				<title>Gameplay Programmer</title>
+				<tools>Unity, C#</tools>
+				<tasks>
+					<task>Modified a Microsoft Kinect game for the CMU School of Music's centennial anniversary social</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>Creative Services: SIGMA</department>
+				<title>Gameplay, Interface, Network, and Database Programmer</title>
+				<tools>Unity, C#, JavaScript</tools>
+				<tasks>
+					<task>Programmed multiplayer networking and database access plugin for a team-run factory simulation</task>
+					<task>Assisted development of gameplay and interface elements</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>Creative Services: ARGo</department>
+				<title>Web Programmer</title>
+				<tools>Ruby on Rails, SQL, Haml</tools>
+				<tasks>
+					<task>Completed development of an user-based, content-driven, educational mobile phone app</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>Creative Services: Oceanus</department>
+				<title>Augmented Reality Programmer</title>
+				<tools>C, C++, OpenCV, Unity</tools>
+				<tasks>
+					<task>Prototyped an interactive crowd camera experience for the 2012 World Expo in Yeosu, South Korea</task>
+					<task>Traveled to Osaka, Japan to hand off project (three week stay)</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>Creative Services: Intermediate Unit 1</department>
+				<title>Gameplay Programmer</title>
+				<tools>C#, Microsoft Silverlight</tools>
+				<tasks>
+					<task>Programmed an interactive early education app for the SMART Technologies SMART Table</task>
+				</tasks>
+			</role>
+		</job>
+		
+		<job>
+			<company>University of Pittsburgh</company>
+			<location>Pittsburgh, PA</location>
+			<date>2004 - 2009</date>
+			<position>Work Study Program</position>
+			
+			<role>
+				<department>Office of Experiential Learning</department>
+				<title>Database Administrator</title>
+			</role>
+			
+			<role>
+				<department>Computer Science Department: Faculty</department>
+				<title>Teaching Assistant</title>
+			</role>
+			
+			<role>
+				<department>Psychology Department: Smoking Research Group</department>
+				<title>Research Assistant</title>
+			</role>
+			
+			<role>
+				<department>Computer Science Department: Staff</department>
+				<title>Graduate Office Assistant</title>
+			</role>
+			
+			<role>
+				<department>Psychology Department</department>
+				<title>Website Administrator / Office Assistant</title>
+			</role>
+			
+			<role>
+				<department>Electrical and Computer Engineering Department</department>
+				<title>Computer Laboratory Assistant</title>
+			</role>
+		</job>
+	</work_experience>
+
+	<education>
+		<university>
+			<school>University of Pittsburgh</school>
+			<location>Pittsburgh, PA</location>
+			<date>2010</date>
+			<degree>Bachelor of Science in Computer Science</degree>
+			<degree>Bachelor of Arts in Japanese Language and Culture</degree>
+			<certificate>East Asian Studies</certificate>
+		</university>
+		
+		<university>
+			<school>Temple University Japan</school>
+			<location>Tokyo, Japan</location>
+			<date>2007</date>
+			<other>Study Abroad</other>
+		</university>
+	</education>
+</resume>
