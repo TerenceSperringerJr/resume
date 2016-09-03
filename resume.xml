@@ -40,11 +40,11 @@
 				<title>Web Developer</title>
 				<tools>JavaScript, JQuery, Bootstrap, Java, Play framework</tools>
 				<tasks>
-					<task>Design and develop software</task>
-					<task>Create user documentation</task>
-					<task>Debug and refactor code</task>
-					<task>Participate in daily SCRUMs, client meetings, and planning meetings</task>
-					<task>Manage git code repositories</task>
+					<task>Designing and developing software</task>
+					<task>Creating user documentation</task>
+					<task>Debugging and refactoring code</task>
+					<task>Participating in daily SCRUMs, client meetings, and planning meetings</task>
+					<task>Managing git code repositories</task>
 				</tasks>
 			</role>
 		</job>
