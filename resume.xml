@@ -37,12 +37,13 @@
 			
 			<role>
 				<department>Department of BioMedical Informatics</department>
-				<title>Front-end developer</title>
+				<title>Web Developer</title>
 				<tools>JavaScript, JQuery, Bootstrap, Java, Play framework</tools>
 				<tasks>
-					<task>Design and implement software</task>
-					<task>Debug code, perform code reviews, and write documentation</task>
-					<task>Participate in daily SCRUMs, client meetings, and technical consulting</task>
+					<task>Design and develop software</task>
+					<task>Create user documentation</task>
+					<task>Debug and refactor code</task>
+					<task>Participate in daily SCRUMs, client meetings, and planning meetings</task>
 					<task>Manage git code repositories</task>
 				</tasks>
 			</role>
