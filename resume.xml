@@ -43,7 +43,7 @@
 					<task>Designing and developing software</task>
 					<task>Creating user documentation</task>
 					<task>Debugging and refactoring code</task>
-					<task>Participating in daily SCRUMs, client meetings, and planning meetings</task>
+					<task>Participating in Daily Scrums, client meetings, and planning meetings</task>
 					<task>Managing git code repositories</task>
 				</tasks>
 			</role>
@@ -58,7 +58,7 @@
 			<role>
 				<department>Sales Engineering</department>
 				<title>Sales Engineer</title>
-				<tools>Unity, GREE Platform SDK, Flurry Analytics</tools>
+				<tools>Unity, GREE Platform SDK</tools>
 				<tasks>
 					<task>Assisted high priority clients by communicating  via Skype, meeting clients in person, researching and suggesting methodologies for analytics, and play-testing apps to be reviewed for the Apple Store and Google Play Store</task>
 					<task>Created sample code and Unity3D demos to help third party developers integrate GREE's platform into their games as well as to assist in debugging client issues</task>
