@@ -38,7 +38,7 @@
 			<role>
 				<department>Department of BioMedical Informatics</department>
 				<title>Web Developer</title>
-				<tools>JavaScript, JQuery, Bootstrap, Java, Play framework</tools>
+				<tools>JavaScript, JQuery, Java, C</tools>
 				<tasks>
 					<task>Designing and developing software</task>
 					<task>Creating user documentation</task>
@@ -57,8 +57,8 @@
 			
 			<role>
 				<department>Sales Engineering</department>
-				<title>Sales Engineer</title>
-				<tools>Unity, GREE Platform SDK</tools>
+				<title>Games Integration Engineer</title>
+				<tools>JavaScript, C#, Unity, GREE Platform SDK</tools>
 				<tasks>
 					<task>Assisted high priority clients by communicating  via Skype, meeting clients in person, researching and suggesting methodologies for analytics, and play-testing apps to be reviewed for the Apple Store and Google Play Store</task>
 					<task>Created sample code and Unity3D demos to help third party developers integrate GREE's platform into their games as well as to assist in debugging client issues</task>
