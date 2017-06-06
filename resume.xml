@@ -37,13 +37,13 @@
 			
 			<role>
 				<department>Department of BioMedical Informatics</department>
-				<title>Web Developer</title>
+				<title>Software Developer</title>
 				<tools>JavaScript, JQuery, Java, C</tools>
 				<tasks>
 					<task>Designing and developing software</task>
 					<task>Creating user documentation</task>
 					<task>Debugging and refactoring code</task>
-					<task>Participating in Daily Scrums, client meetings, and planning meetings</task>
+					<task>Participating in daily scrums, client meetings, and planning meetings</task>
 					<task>Managing git code repositories</task>
 				</tasks>
 			</role>
