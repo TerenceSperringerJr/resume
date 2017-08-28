@@ -4,6 +4,9 @@ resume.css
 css for resume
 */
 
+body {
+	background-color: #FFFFFF;
+}
 
 @media print {
 	.legend {
@@ -15,6 +18,11 @@ css for resume
 	.item {
 		page-break-inside: avoid;
 	}
+}
+
+fieldset {
+	border-color: #F0F0F0;
+	border-radius: 5px;
 }
 
 fieldset:nth-child(2n) {
@@ -34,6 +42,10 @@ fieldset:nth-child(2n) legend {
 .item-heading {
 	font-size: 1.17em;
 	font-weight: bold;
+}
+
+.extra-bottom-space {
+	margin-bottom: 5px;
 }
 
 .vertical-spaced

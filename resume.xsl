@@ -57,8 +57,8 @@
 			<fieldset>
 				<legend>Qualifications</legend>
 				<div class="sub-section">
-					<div>
-						<span><strong>Self-summary: </strong><xsl:value-of select="resume/qualifications" /></span>
+					<div class="extra-bottom-space">
+						<span><strong>Summary: </strong><xsl:value-of select="resume/qualifications" /></span>
 					</div>
 					<div>
 						<span><strong>Languages: </strong><xsl:value-of select="resume/languages" /></span>
@@ -86,11 +86,11 @@
 						</div>
 						<hr />
 						<div class="sub-section">
-							<div><em><xsl:value-of select="position" /></em></div>
+							<h4><xsl:value-of select="position" /></h4>
 							
 							<xsl:for-each select="role">
 							<div class="item">
-								<h4><xsl:value-of select="department" /></h4>
+								<div><em><xsl:value-of select="department" /></em></div>
 								<div style="clear: both;">
 									<span style="margin-right: 25px;"><xsl:value-of select="title" /></span>
 									<span style=""><xsl:value-of select="tools" /></span>
@@ -144,7 +144,7 @@
 							
 							<xsl:for-each select="other">
 							<div>
-								<span><xsl:value-of select="." /></span>
+								<span><em><xsl:value-of select="." /></em></span>
 							</div>
 							</xsl:for-each>
 						</div>

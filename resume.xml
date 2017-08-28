@@ -8,7 +8,7 @@
 	<phone>724-650-4302</phone>
 	<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>
 
-	<qualifications>I am a long time gamer-turned-developer who is devoted to delivering interactive experiences that touch people's lives</qualifications>
+	<qualifications>I am a long-time gamer-turned-professional developer who is devoted to delivering interactive experiences that touch people's lives</qualifications>
 	<languages>English, Intermediate Level Japanese</languages>
 
 	<work_experience>
@@ -36,7 +36,7 @@
 			<position>Software Developer</position>
 			
 			<role>
-				<department>Department of BioMedical Informatics</department>
+				<department>Department of Biomedical Informatics</department>
 				<title>Software Developer</title>
 				<tools>JavaScript, JQuery, Java, C</tools>
 				<tasks>
