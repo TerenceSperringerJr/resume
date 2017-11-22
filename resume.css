@@ -6,6 +6,7 @@ css for resume
 
 body {
 	background-color: #FFFFFF;
+	font-size: 11px;
 }
 
 @media print {
