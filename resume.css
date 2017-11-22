@@ -6,10 +6,13 @@ css for resume
 
 body {
 	background-color: #FFFFFF;
-	font-size: 11px;
 }
 
 @media print {
+	body {
+		font-size: 11px;
+	}
+	
 	.legend {
 		background-color: #FFFFFF;
 		page-break-inside: avoid;
