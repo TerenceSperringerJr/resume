@@ -8,8 +8,11 @@
 	<phone>724-650-4302</phone>
 	<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>
 
-	<qualifications>I am a gamer-turned-professional developer who is devoted to delivering interactive experiences that touch people's lives</qualifications>
-	<languages>English, Intermediate Level Japanese</languages>
+	<qualifications>
+		<summary>Gamer-turned-professional developer devoted to touching people's lives through interactive experiences</summary>
+		<languages>English, Intermediate level Japanese</languages>
+		<technologies>C, C++, C#, JavaScript, HTML, CSS, Bash, Slurm, Unity, Mapbox, Git, Windows, Linux</technologies>
+	</qualifications>
 
 	<work_experience>
 		<!--
@@ -36,15 +39,53 @@
 			<position>Software Developer</position>
 			
 			<role>
-				<department>Department of Biomedical Informatics</department>
+				<department> Department of Biomedical Informatics </department>
 				<title>Software Developer</title>
-				<tools>JavaScript, JQuery, Java, C</tools>
+				<tools>C, C++, Java, JavaScript, HTML, CSS, JQuery, Bash, Slurm, Unity, Mapbox, Git, Windows, Linux</tools>
 				<tasks>
 					<task>Designing and developing software</task>
 					<task>Creating user documentation</task>
 					<task>Debugging and refactoring code</task>
 					<task>Participating in daily scrums, client meetings, and planning meetings</task>
 					<task>Managing git code repositories</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>SPEWMap</department>
+				<title>Software Developer</title>
+				<tools>HTML, CSS, JavaScript, JQuery, Java, C, C++, Bash, Slurm, Mapbox</tools>
+				<tasks>
+					<task>Designed and developed front-end for SPEWMap web application</task>
+					<task>Engineered pipeline for parallel processing CSV data into map tiles</task>
+					<task>Managed Slurm batch jobs for running multiple processes in Pittsburgh Supercomputing Center</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>FRED for Cygwin Installer</department>
+				<title>Software Developer</title>
+				<tools>NSIS (Nullsoft Scriptable Install System), Cygwin</tools>
+				<tasks>
+					<task>Created Cygwin-based installer for FRED (Framework for Reconstructing Epidemiological Dynamics)</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>EpiCaseMap (Epidemic Cases Map)</department>
+				<title>Software Developer</title>
+				<tools>HTML, CSS, JavaScript, JQuery, Java, Mapbox, Play! Framework</tools>
+				<tasks>
+					<task>Designed and developed front-end for EpiCaseMap web application</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>Apollo Location Services</department>
+				<title>Software Developer</title>
+				<tools>HTML, CSS, JavaScript, JQuery, Java, Mapbox, Play! Framework</tools>
+				<tasks>
+					<task>Developed front-end for Location Services web application</task>
 				</tasks>
 			</role>
 		</job>

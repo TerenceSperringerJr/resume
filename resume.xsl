@@ -58,10 +58,15 @@
 				<legend>Qualifications</legend>
 				<div class="sub-section">
 					<div class="extra-bottom-space">
-						<span><strong>Summary: </strong><xsl:value-of select="resume/qualifications" /></span>
+						<span><strong>Summary: </strong><xsl:value-of select="resume/qualifications/summary" /></span>
 					</div>
+					
+					<div class="extra-bottom-space">
+						<span><strong>Languages: </strong><xsl:value-of select="resume/qualifications/languages" /></span>
+					</div>
+					
 					<div>
-						<span><strong>Languages: </strong><xsl:value-of select="resume/languages" /></span>
+						<span><strong>Recent Technologies: </strong><xsl:value-of select="resume/qualifications/technologies" /></span>
 					</div>
 				</div>
 			</fieldset>
