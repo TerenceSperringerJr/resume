@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="resume.css" />
 	</head>
 	
-	<body style="max-width: 21cm; margin-left: auto; margin-right: auto;">
+	<body>
 		<form>
 			<fieldset>
 				<legend style="font-size: 2em; font-weight: bold;"><xsl:value-of select="resume/name" /></legend>
@@ -58,10 +58,15 @@
 				<legend>Qualifications</legend>
 				<div class="sub-section">
 					<div class="extra-bottom-space">
-						<span><strong>Summary: </strong><xsl:value-of select="resume/qualifications" /></span>
+						<span><strong>Summary: </strong><xsl:value-of select="resume/qualifications/summary" /></span>
 					</div>
+					
+					<div class="extra-bottom-space">
+						<span><strong>Languages: </strong><xsl:value-of select="resume/qualifications/languages" /></span>
+					</div>
+					
 					<div>
-						<span><strong>Languages: </strong><xsl:value-of select="resume/languages" /></span>
+						<span><strong>Recent Technologies: </strong><xsl:value-of select="resume/qualifications/technologies" /></span>
 					</div>
 				</div>
 			</fieldset>
