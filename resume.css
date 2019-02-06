@@ -11,13 +11,9 @@ body {
 	max-width: 21cm;
 }
 
-* {
-	overflow: visible;
-}
-
 .item {
 	break-inside: avoid;
-	break-after: always;
+	overflow: visible;
 }
 
 @media print {
