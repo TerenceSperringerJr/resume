@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="resume.css" />
 	</head>
 	
-	<body style="max-width: 21cm; margin-left: auto; margin-right: auto;">
+	<body>
 		<form>
 			<fieldset>
 				<legend style="font-size: 2em; font-weight: bold;"><xsl:value-of select="resume/name" /></legend>
