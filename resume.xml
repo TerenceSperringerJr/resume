@@ -41,7 +41,7 @@
 			<role>
 				<department> Department of Biomedical Informatics </department>
 				<!--<title>Software Developer</title>-->
-				<tools>C, C++, Java, JavaScript, HTML, CSS, JQuery, Bash, Slurm, Unity, Mapbox, Git, Windows, Linux</tools>
+				<tools>C, C++, Java, JavaScript, HTML, CSS, JQuery, Bash, Slurm, Mapbox, Git, Windows, Linux</tools>
 				<tasks>
 					<task>Designing and developing software</task>
 					<task>Creating user documentation</task>
