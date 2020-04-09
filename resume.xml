@@ -39,7 +39,7 @@
 			<position>Software Engineer</position>
 			<role>
 				<department>Blue IG</department>
-				
+				<!-- <title>Software Engineer</title> -->
 				<tools>C++, C#, Git, SVN, JIRA, Windows</tools>
 				<tasks>
 					<task>Designing and developing software</task>
