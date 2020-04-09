@@ -22,6 +22,7 @@ form {
 
 @media print {
 	body {
+		background-color: #FFFFFF;
 		font-size: 11px;
 	}
 	
