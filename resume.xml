@@ -9,9 +9,9 @@
 	<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>
 
 	<qualifications>
-		<summary>Gamer-turned-professional developer devoted to touching people's lives through interactive experiences</summary>
+		<summary>Professional developer devoted to touching people's lives through interactive experiences</summary>
 		<languages>English, Intermediate level Japanese</languages>
-		<technologies>C, C++, C#, JavaScript, HTML, CSS, Bash, Slurm, Unity, Mapbox, Git, Windows, Linux</technologies>
+		<technologies>C++, C#, Bash, Git, JIRA, Unity, Windows</technologies>
 	</qualifications>
 
 	<work_experience>
@@ -33,14 +33,33 @@
 		-->
 		
 		<job>
+			<company>Bohemia Interactive Simulations</company>
+			<location>Orlando, FL</location>
+			<date>2019 - present</date>
+			<position>Software Engineer</position>
+			<role>
+				<department>Blue IG</department>
+				
+				<tools>C++, C#, Git, SVN, JIRA, Windows</tools>
+				<tasks>
+					<task>Designing and developing software</task>
+					<task>Reviewing, debugging, and refactoring code</task>
+					<task>Project management, bug-reporting, and time estimation via JIRA issue tracker</task>
+					<task>Employing Agile software development methodologies (scrums, kanban, sprint retrospectives &amp; planning, task analysis)</task>
+					<task>Utilizing Git &amp; SVN source control versioning systems</task>
+				</tasks>
+			</role>
+		</job>
+		
+		<job>
 			<company>University of Pittsburgh</company>
 			<location>Pittsburgh, PA</location>
-			<date>2014 - present</date>
+			<date>2014 - 2019</date>
 			<position>Software Developer</position>
 			
 			<role>
 				<department> Department of Biomedical Informatics </department>
-				<!--<title>Software Developer</title>-->
+				<!-- <title>Software Developer</title> -->
 				<tools>C, C++, Java, JavaScript, HTML, CSS, JQuery, Bash, Slurm, Mapbox, Git, Windows, Linux</tools>
 				<tasks>
 					<task>Designing and developing software</task>
@@ -53,7 +72,7 @@
 			
 			<role>
 				<department>SPEWMap</department>
-				<!--<title>Software Developer</title>-->
+				<!-- <title>Software Developer</title> -->
 				<tools>HTML, CSS, JavaScript, JQuery, Java, C, C++, Bash, Slurm, Mapbox</tools>
 				<tasks>
 					<task>Designed and developed front-end for SPEWMap web application</task>
@@ -64,7 +83,7 @@
 			
 			<role>
 				<department>FRED for Cygwin Installer</department>
-				<!--<title>Software Developer</title>-->
+				<!-- <title>Software Developer</title> -->
 				<tools>NSIS (Nullsoft Scriptable Install System), Cygwin</tools>
 				<tasks>
 					<task>Created Cygwin-based installer for FRED (Framework for Reconstructing Epidemiological Dynamics)</task>
@@ -73,7 +92,7 @@
 			
 			<role>
 				<department>EpiCaseMap (Epidemic Cases Map)</department>
-				<!--<title>Software Developer</title>-->
+				<!-- <title>Software Developer</title> -->
 				<tools>HTML, CSS, JavaScript, JQuery, Java, Mapbox, Play! Framework</tools>
 				<tasks>
 					<task>Designed and developed front-end for EpiCaseMap web application</task>
@@ -82,7 +101,7 @@
 			
 			<role>
 				<department>Apollo Location Services</department>
-				<!--<title>Software Developer</title>-->
+				<!-- <title>Software Developer</title> -->
 				<tools>HTML, CSS, JavaScript, JQuery, Java, Mapbox, Play! Framework</tools>
 				<tasks>
 					<task>Developed front-end for Location Services web application</task>
@@ -98,7 +117,7 @@
 			
 			<role>
 				<department>Sales Engineering</department>
-				<!--<title>Games Integration Engineer</title>-->
+				<!-- <title>Games Integration Engineer</title> -->
 				<tools>JavaScript, C#, Unity, GREE Platform SDK</tools>
 				<tasks>
 					<task>Assisted high priority clients by communicating  via Skype, meeting clients in person, researching and suggesting methodologies for analytics, and play-testing apps to be reviewed for the Apple Store and Google Play Store</task>
@@ -116,7 +135,7 @@
 			
 			<role>
 				<department>Creative Services: Kindworks</department>
-				<!--<title>Interface and Database Programmer</title>-->
+				<!-- <title>Interface and Database Programmer</title> -->
 				<tools>HTML, CSS, JavaScript, MySQL, PHP</tools>
 				<tasks>
 					<task>Designed and queried database, and programmed scripts for altruistic online community website</task>
@@ -125,7 +144,7 @@
 			
 			<role>
 				<department>Creative Services: School of Music Social</department>
-				<!--<title>Gameplay Programmer</title>-->
+				<!-- <title>Gameplay Programmer</title> -->
 				<tools>Unity, C#</tools>
 				<tasks>
 					<task>Modified a Microsoft Kinect game for the CMU School of Music's centennial anniversary social</task>
@@ -134,7 +153,7 @@
 			
 			<role>
 				<department>Creative Services: SIGMA</department>
-				<!--<title>Gameplay, Interface, Network, and Database Programmer</title>-->
+				<!-- <title>Gameplay, Interface, Network, and Database Programmer</title> -->
 				<tools>Unity, C#, JavaScript</tools>
 				<tasks>
 					<task>Programmed multiplayer networking and database access plugin for a team-run factory simulation</task>
@@ -144,7 +163,7 @@
 			
 			<role>
 				<department>Creative Services: ARGo</department>
-				<!--<title>Web Programmer</title>-->
+				<!-- <title>Web Programmer</title> -->
 				<tools>Ruby on Rails, SQL, Haml</tools>
 				<tasks>
 					<task>Completed development of an user-based, content-driven, educational mobile phone app</task>
@@ -153,7 +172,7 @@
 			
 			<role>
 				<department>Creative Services: Oceanus</department>
-				<!--<title>Augmented Reality Programmer</title>-->
+				<!-- <title>Augmented Reality Programmer</title> -->
 				<tools>C, C++, OpenCV, Unity</tools>
 				<tasks>
 					<task>Prototyped an interactive crowd camera experience for the 2012 World Expo in Yeosu, South Korea</task>
@@ -163,7 +182,7 @@
 			
 			<role>
 				<department>Creative Services: Intermediate Unit 1</department>
-				<!--<title>Gameplay Programmer</title>-->
+				<!-- <title>Gameplay Programmer</title> -->
 				<tools>C#, Microsoft Silverlight</tools>
 				<tasks>
 					<task>Programmed an interactive early education app for the SMART Technologies SMART Table</task>
