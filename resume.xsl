@@ -8,6 +8,7 @@
 	<head>
 		<title><xsl:value-of select="resume/name" /></title>
 		<link rel="stylesheet" type="text/css" href="resume.css" />
+		<script src="resume.js" defer="defer"></script>
 	</head>
 	
 	<body>
@@ -38,18 +39,8 @@
 						</div>
 					</div>
 					
-					<div style="float: right; clear: right;">
-						<div>
-							<span>E-mail: </span>
-							<a>
-								<xsl:attribute name="href">
-									mailto:<xsl:value-of select="resume/email" />
-								</xsl:attribute>
-								<xsl:value-of select="resume/email" />
-							</a>
-						</div>
-						
-						<div><span>Phone: <xsl:value-of select="resume/phone" /></span></div>
+					<div id="contact-info" style="float: right; clear: right;">
+						<!-- loaded before printing -->
 					</div>
 				</div>
 			</fieldset>
