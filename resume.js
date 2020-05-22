@@ -38,6 +38,8 @@
 			var ex = xml.transformNode(xsl);
 			contact_info.innerHTML = ex;
 		}
+		
+		document.body.onbeforeprint = null;
 	}
 	
 	document.body.onbeforeprint = loadContact;
