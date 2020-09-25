@@ -42,9 +42,9 @@
 				<!-- <title>Software Engineer</title> -->
 				<tools>C++, C#, Git, SVN, JIRA, Windows</tools>
 				<tasks>
-					<task>Designing and developing software</task>
+					<task>Designing, developing, and maintaining components for image generator and simulation software</task>
 					<task>Reviewing, debugging, and refactoring code</task>
-					<task>Project management, bug-reporting, and time estimation via JIRA issue tracker</task>
+					<task>Managing projects, bug-reporting, and estimating schedules via JIRA issue tracker</task>
 					<task>Employing Agile software development methodologies (scrums, kanban, sprint retrospectives &amp; planning, task analysis)</task>
 					<task>Utilizing Git &amp; SVN source control versioning systems</task>
 				</tasks>
@@ -62,11 +62,11 @@
 				<!-- <title>Software Developer</title> -->
 				<tools>C, C++, Java, JavaScript, HTML, CSS, JQuery, Bash, Slurm, Mapbox, Git, Windows, Linux</tools>
 				<tasks>
-					<task>Designing and developing software</task>
-					<task>Creating user documentation</task>
-					<task>Debugging and refactoring code</task>
-					<task>Participating in daily scrums, client meetings, and planning meetings</task>
-					<task>Managing git code repositories</task>
+					<task>Designed and developed research assistance software</task>
+					<task>Created user documentation</task>
+					<task>Debugged and refactored code</task>
+					<task>Participated in daily scrums, client meetings, and planning meetings</task>
+					<task>Managed git code repositories</task>
 				</tasks>
 			</role>
 			
