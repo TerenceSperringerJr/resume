@@ -10,7 +10,7 @@
 		xhttp.open("GET", filename, false);
 		
 		try {
-			xhttp.responseType = "msxml-document"
+			xhttp.responseType = "msxml-document";
 		}
 		catch(err) {} // Helping IE11
 		
