@@ -39,8 +39,31 @@
 						</div>
 					</div>
 					
+					<!-- revealed before printing -->
 					<div id="contact-info" style="float: right; clear: right;">
-						<!-- loaded before printing -->
+						<div id="email">
+							<xsl:attribute name="local">
+								<xsl:value-of select="resume/email/local" />
+							</xsl:attribute>
+
+							<xsl:attribute name="domain">
+								<xsl:value-of select="resume/email/domain" />
+							</xsl:attribute>
+						</div>
+
+						<div id="phone">
+							<xsl:attribute name="area">
+								<xsl:value-of select="resume/phone/area" />
+							</xsl:attribute>
+
+							<xsl:attribute name="office">
+								<xsl:value-of select="resume/phone/office" />
+							</xsl:attribute>
+
+							<xsl:attribute name="line">
+								<xsl:value-of select="resume/phone/line" />
+							</xsl:attribute>
+						</div>
 					</div>
 				</div>
 			</fieldset>
@@ -80,9 +103,8 @@
 								<span style="float: right;"><xsl:value-of select="date" /></span>
 							</div>
 						</div>
-						<hr />
 						<div class="sub-section">
-							<h4><xsl:value-of select="position" /></h4>
+							<h3><xsl:value-of select="position" /></h3>
 							
 							<xsl:for-each select="role">
 							<div class="item">
@@ -101,6 +123,7 @@
 							</xsl:for-each>
 						</div>
 					</div>
+					<hr />
 					</xsl:for-each>
 				</div>
 			</fieldset>

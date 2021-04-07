@@ -5,7 +5,7 @@ css for resume
 */
 
 body {
-	background-color: #808080;
+	background-color: #A0A0A0;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 21cm;
@@ -59,22 +59,20 @@ fieldset:nth-child(2n) legend {
 	margin-bottom: 5px;
 }
 
-.vertical-spaced
-{
+.vertical-spaced {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.sub-section
-{
+.sub-section {
 	margin-left: 2%;
 	
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-h1, h2, h3, h4
-{
+h1, h2, h3, h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
+	text-align: center;
 }
