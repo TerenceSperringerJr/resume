@@ -1,5 +1,7 @@
 (function() {
 	function showContact() {
+		document.body.onbeforeprint = null;
+
 		let email = document.getElementById('email'),
 			phone = document.getElementById('phone'),
 			label = document.createElement('span'),
