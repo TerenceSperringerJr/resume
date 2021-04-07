@@ -4,9 +4,17 @@
 <resume>
 	<name>Terence Sperringer, Jr.</name>
 	<linkedin>http://www.linkedin.com/in/tsperringerjr</linkedin>
-	<email>terence.sperringer.jr@gmail.com</email>
-	<phone>724-650-4302</phone>
-	<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>
+	<email>
+		<local>terence.sperringer.jr</local>
+		<domain>gmail.com</domain>
+	</email>
+	<phone>
+		<area>724</area>
+		<office>650</office>
+		<line>4302</line>
+	</phone>
+	<!--<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>-->
+	<portfolio>https://terencesperringerjr.github.io/web-portfolio/</portfolio>
 
 	<qualifications>
 		<summary>Professional developer devoted to touching people's lives through interactive experiences</summary>
@@ -32,21 +40,48 @@
 		</job>
 		-->
 		
+		
+		<job>
+			<company>Freelancing</company>
+			<location>Orlando, FL</location>
+			<date>2020 - Present</date>
+			<position>Software Engineer, Game Developer</position>
+			<role>
+				<department>Personal Projects</department>
+				<!-- <title>Game Programmer & Developer</title> -->
+				<tools>Unity, Visual Studio, C#, Git, Windows</tools>
+				<tasks>
+					<task>Programming, debugging, and refactoring systems for PC games and experimental projects</task>
+					<task>Utilizing Git source control versioning system</task>
+				</tasks>
+			</role>
+			
+			<role>
+				<department>Contract - Mega Cat Studios</department>
+				<!-- <title>Contract - Lead Programmer</title> -->
+				<tools>Unity, Visual Studio, C#, Git, Windows</tools>
+				<tasks>
+					<task>Programming, debugging, and refactoring systems for PC game</task>
+					<task>Utilizing Git source control versioning system</task>
+				</tasks>
+			</role>
+		</job>
+		
 		<job>
 			<company>Bohemia Interactive Simulations</company>
 			<location>Orlando, FL</location>
-			<date>2019 - present</date>
+			<date>2019 - 2020</date>
 			<position>Software Engineer</position>
 			<role>
 				<department>Blue IG</department>
 				<!-- <title>Software Engineer</title> -->
 				<tools>C++, C#, Git, SVN, JIRA, Windows</tools>
 				<tasks>
-					<task>Designing, developing, and maintaining components for image generator and simulation software</task>
-					<task>Reviewing, debugging, and refactoring code</task>
-					<task>Managing projects, bug-reporting, and estimating schedules via JIRA issue tracker</task>
-					<task>Employing Agile software development methodologies (scrums, kanban, sprint retrospectives &amp; planning, task analysis)</task>
-					<task>Utilizing Git &amp; SVN source control versioning systems</task>
+					<task>Designed, developed, and maintained components for image generator and simulation software</task>
+					<task>Reviewed, debugged, and refactored code</task>
+					<task>Managed projects, bug-reported, and estimated schedules via JIRA issue tracker</task>
+					<task>Employed Agile software development methodologies (scrums, kanban, sprint retrospectives &amp; planning, task analysis)</task>
+					<task>Utilized Git &amp; SVN source control versioning systems</task>
 				</tasks>
 			</role>
 		</job>

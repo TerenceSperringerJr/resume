@@ -1,46 +1,26 @@
 (function() {
-	function loadXMLDoc(filename) {
-		if (window.ActiveXObject) {
-			xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-		}
-		else {
-			xhttp = new XMLHttpRequest();
-		}
-		
-		xhttp.open("GET", filename, false);
-		
-		try {
-			xhttp.responseType = "msxml-document";
-		}
-		catch(err) {} // Helping IE11
-		
-		xhttp.send("");
-		
-		return xhttp.responseXML;
+	function showContact() {
+		let email = document.getElementById('email'),
+			phone = document.getElementById('phone'),
+			label = document.createElement('span'),
+			content = document.createElement('a');
+
+		label.innerHTML = 'Email: ';
+		email.appendChild(label);
+		content.innerHTML = email.getAttribute('local') + '@' + email.getAttribute('domain');
+		content.href = "mailto:" + content.innerHTML;
+		email.appendChild(content);
+
+		label = document.createElement('span');
+		label.innerHTML = 'Phone: ';
+		phone.appendChild(label);
+		content = document.createElement('a');
+		content.innerHTML = '(' + phone.getAttribute('area') + ') ' + phone.getAttribute('office') + '-' + phone.getAttribute('line');
+		content.href = "tel:" + content.innerHTML;
+		phone.appendChild(content);
+
+		return;
 	}
-	
-	function loadContact() {
-		var contact_info = document.getElementById("contact-info"),
-			xml = loadXMLDoc("resume.xml"),
-			xsl = loadXMLDoc("contact_info.xsl");
-		
-		// code for Chrome, Firefox, Opera, etc.
-		if (document.implementation && document.implementation.createDocument) {
-			var xsltProcessor = new XSLTProcessor(),
-				resultDocument;
-			
-			xsltProcessor.importStylesheet(xsl);
-			resultDocument = xsltProcessor.transformToFragment(xml, document);
-			contact_info.appendChild(resultDocument);
-		}
-		// code for IE
-		else if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
-			var ex = xml.transformNode(xsl);
-			contact_info.innerHTML = ex;
-		}
-		
-		document.body.onbeforeprint = null;
-	}
-	
-	document.body.onbeforeprint = loadContact;
+
+	document.body.onbeforeprint = showContact;
 })();
