@@ -146,7 +146,6 @@
 								<span style="float: right;"><xsl:value-of select="date" /></span>
 							</div>
 						</div>
-						<hr />
 						
 						<div class="sub-section">
 							<xsl:for-each select="degree">
@@ -168,6 +167,7 @@
 							</xsl:for-each>
 						</div>
 					</div>
+					<hr />
 					</xsl:for-each>
 				</div>
 			</fieldset>
