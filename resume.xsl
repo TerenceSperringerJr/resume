@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes"/>
+<xsl:output method="html" version="5" encoding="UTF-8" indent="yes"/>
 <xsl:template match="/">
 
 <html>
@@ -91,16 +91,22 @@
 					<xsl:for-each select="resume/work_experience/job">
 					<div class="item">
 						<div>
-							<div style="width: 48%; display: inline-block;">
+							<div style="width: 33%; display: inline-block; vertical-align: top;">
 								<span class="item-heading"><xsl:value-of select="company" /></span>
 							</div>
 							
-							<div style="width: 25%; display: inline-block;">
-								<span><xsl:value-of select="location" /></span>
+							<div style="width: 33%; display: inline-block; text-align: center; vertical-align: top;">
+								<xsl:for-each select="locations/location">
+									<xsl:if test="position() > 1">
+										<span> | </span>
+									</xsl:if>
+									
+									<span><xsl:value-of select="." /></span>
+								</xsl:for-each>
 							</div>
 							
-							<div style="width: 25%; display: inline-block;">
-								<span style="float: right;"><xsl:value-of select="date" /></span>
+							<div style="width: 32%; display: inline-block; text-align: right; vertical-align: top;">
+								<span><xsl:value-of select="date" /></span>
 							</div>
 						</div>
 						<div class="sub-section">
@@ -116,14 +122,17 @@
 								
 								<ul>
 									<xsl:for-each select="tasks/task">
-									<li><xsl:value-of select="." /></li>
+										<li><xsl:value-of select="." /></li>
 									</xsl:for-each>
 								</ul>
 							</div>
 							</xsl:for-each>
 						</div>
 					</div>
-					<hr />
+					
+					<xsl:if test="position() != last()">
+						<hr />
+					</xsl:if>
 					</xsl:for-each>
 				</div>
 			</fieldset>
@@ -134,16 +143,16 @@
 					<xsl:for-each select="resume/education/university">
 					<div class="item">
 						<div>
-							<div style="width: 48%; display: inline-block;">
+							<div style="width: 33%; display: inline-block;">
 								<span class="item-heading"><xsl:value-of select="school" /></span>
 							</div>
 							
-							<div style="width: 25%; display: inline-block;">
+							<div style="width: 33%; display: inline-block; text-align: center;">
 								<span><xsl:value-of select="location" /></span>
 							</div>
 							
-							<div style="width: 25%; display: inline-block;">
-								<span style="float: right;"><xsl:value-of select="date" /></span>
+							<div style="width: 32%; display: inline-block; text-align: right;">
+								<span><xsl:value-of select="date" /></span>
 							</div>
 						</div>
 						
@@ -167,7 +176,10 @@
 							</xsl:for-each>
 						</div>
 					</div>
-					<hr />
+					
+					<xsl:if test="position() != last()">
+						<hr />
+					</xsl:if>
 					</xsl:for-each>
 				</div>
 			</fieldset>
