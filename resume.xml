@@ -26,7 +26,9 @@
 		<!--
 		<job>
 			<company></company>
-			<location></location>
+			<locations>
+				<location></location>
+			<locations>
 			<date></date>
 			<position></position>
 			<role>
@@ -43,7 +45,10 @@
 		
 		<job>
 			<company>Freelancing</company>
-			<location>Orlando, FL</location>
+			<locations>
+				<location>Orlando, FL</location>
+				<location>Pittsburgh, PA</location>
+			</locations>
 			<date>2020 - Present</date>
 			<position>Software Engineer, Game Developer</position>
 			<role>
@@ -69,7 +74,9 @@
 		
 		<job>
 			<company>Bohemia Interactive Simulations</company>
-			<location>Orlando, FL</location>
+			<locations>
+				<location>Orlando, FL</location>
+			</locations>
 			<date>2019 - 2020</date>
 			<position>Software Engineer</position>
 			<role>
@@ -88,7 +95,9 @@
 		
 		<job>
 			<company>University of Pittsburgh</company>
-			<location>Pittsburgh, PA</location>
+			<locations>
+				<location>Pittsburgh, PA</location>
+			</locations>
 			<date>2014 - 2019</date>
 			<position>Software Developer</position>
 			
@@ -146,7 +155,9 @@
 		
 		<job>
 			<company>GREE International</company>
-			<location>San Francisco, CA</location>
+			<locations>
+				<location>San Francisco, CA</location>
+			</locations>
 			<date>2012</date>
 			<position>Games Integration Engineer</position>
 			
@@ -164,7 +175,10 @@
 		
 		<job>
 			<company>Carnegie Mellon University Entertainment Technology Center</company>
-			<location>Pittsburgh, PA</location>
+			<locations>
+				<location>Pittsburgh, PA</location>
+				<location>Osaka, Japan</location>
+			</locations>
 			<date>2010 - 2012</date>
 			<position>Staff Engineer</position>
 			
@@ -227,7 +241,9 @@
 		
 		<job>
 			<company>University of Pittsburgh</company>
-			<location>Pittsburgh, PA</location>
+			<locations>
+				<location>Pittsburgh, PA</location>
+			</locations>
 			<date>2004 - 2009</date>
 			<position>Work Study Program</position>
 			
