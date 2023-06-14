@@ -1,15 +1,48 @@
-body {
+html {
+	height: 100%;
 	background-color: #888888;
+	color: #e60012;
 }
+
+body {
+	height: 95%;
+}
+
+/*
+	pixel5a resolution: 414 x 820
+	HD resolution: 1280 x 720
+	1080p resolution: 1920 x 1080
+*/
+
+/*
+@media screen and (max-height: 719px) {
+	#resume-panel {
+		height: 400px;
+	}
+}
+
+@media screen and (min-height: 720px) and (orientation: landscape) {
+	#resume-panel {
+		height: 680px;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	#resume-panel {
+		height: 800px;
+	}
+}
+*/
 
 #resume-panel {
 	margin: auto;
-	width: 880px;
+	width: 95%;
+	height: 100%;
 }
 
 #resume-frame {
-	height: 600px;
 	width: 880px;
+	height: calc(100% - 20px);
 	border-radius: 4px;
 	border-style: none;
 }

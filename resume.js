@@ -24,5 +24,9 @@
 		return;
 	}
 
+	if (!top.document.title.length) {
+		top.document.title = document.title;
+	}
+
 	document.body.onbeforeprint = showContact;
 })();
