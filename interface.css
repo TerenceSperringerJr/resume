@@ -41,7 +41,7 @@ body {
 }
 
 #resume-frame {
-	width: 880px;
+	width: 800px;
 	height: calc(100% - 20px);
 	border-radius: 4px;
 	border-style: none;
