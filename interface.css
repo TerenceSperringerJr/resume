@@ -1,7 +1,8 @@
+
 html {
 	height: 100%;
 	background-color: #888888;
-	color: #e60012;
+	--n_red: #e60012;
 }
 
 body {
