@@ -16,21 +16,9 @@ body {
 */
 
 /*
-@media screen and (max-height: 719px) {
-	#resume-panel {
-		height: 400px;
-	}
-}
-
 @media screen and (min-height: 720px) and (orientation: landscape) {
 	#resume-panel {
 		height: 680px;
-	}
-}
-
-@media screen and (orientation: portrait) {
-	#resume-panel {
-		height: 800px;
 	}
 }
 */
@@ -46,4 +34,10 @@ body {
 	height: calc(100% - 20px);
 	border-radius: 4px;
 	border-style: none;
+}
+
+@media screen and (max-width: 800px) {
+	#resume-frame {
+		width: 100%;
+	}
 }
