@@ -1,0 +1,43 @@
+
+html {
+	height: 100%;
+	background-color: #888888;
+	--n_red: #e60012;
+}
+
+body {
+	height: 95%;
+}
+
+/*
+	pixel5a resolution: 414 x 820
+	HD resolution: 1280 x 720
+	1080p resolution: 1920 x 1080
+*/
+
+/*
+@media screen and (min-height: 720px) and (orientation: landscape) {
+	#resume-panel {
+		height: 680px;
+	}
+}
+*/
+
+#resume-panel {
+	margin: auto;
+	width: 95%;
+	height: 100%;
+}
+
+#resume-frame {
+	width: 800px;
+	height: calc(100% - 20px);
+	border-radius: 4px;
+	border-style: none;
+}
+
+@media screen and (max-width: 800px) {
+	#resume-frame {
+		width: 100%;
+	}
+}
