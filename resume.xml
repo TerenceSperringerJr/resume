@@ -8,10 +8,10 @@
 		<local>terence.sperringer.jr</local>
 		<domain>gmail.com</domain>
 	</email>
-	<phone>
-		<area>724</area>
-		<office>650</office>
-		<line>4302</line>
+	<phone> <!-- -19 -->
+		<area>JEG</area>
+		<office>IHC</office>
+		<line>GFCE</line>
 	</phone>
 	<!--<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>-->
 	<portfolio>https://terencesperringerjr.github.io/web-portfolio/</portfolio>

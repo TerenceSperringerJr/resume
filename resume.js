@@ -17,7 +17,29 @@
 		label.innerHTML = 'Phone: ';
 		phone.appendChild(label);
 		content = document.createElement('a');
-		content.innerHTML = '(' + phone.getAttribute('area') + ') ' + phone.getAttribute('office') + '-' + phone.getAttribute('line');
+		
+		let area_values = phone.getAttribute('area'),
+			office_values = phone.getAttribute('office'),
+			line_values = phone.getAttribute('line'),
+			phone_string = "(";
+
+		for(let i = 0, length = area_values.length; i < length; i++) {
+			phone_string += String.fromCodePoint(area_values.codePointAt(i) - 19);
+		}
+
+		phone_string += ") ";
+
+		for(let i = 0, length = office_values.length; i < length; i++) {
+			phone_string += String.fromCodePoint(office_values.codePointAt(i) - 19);
+		}
+
+		phone_string += '-';
+
+		for(let i = 0, length = line_values.length; i < length; i++) {
+			phone_string += String.fromCodePoint(line_values.codePointAt(i) - 19);
+		}
+
+		content.innerHTML += phone_string;
 		content.href = "tel:" + content.innerHTML;
 		phone.appendChild(content);
 
