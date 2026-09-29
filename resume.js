@@ -2,8 +2,27 @@
 	function createResume() {
 		function parseXML(xml) {
 			let resume = xml.getElementsByTagName('resume')[0],
+				parameters = getParameters(),
+				can_edit = false,
 				temp,
 				text;
+
+			for (let i = 0, value; i < parameters.length; i++) {
+				switch (parameters[i][0]) {
+					case 'editing':
+						can_edit = (parameters[i][1] == 'true');
+					break;
+
+					default:
+					break;
+				}
+			}
+
+			if (can_edit) {
+				for (let i = 0, length = document.all.length; i < length; i++) {
+					document.all[i].contentEditable = true;
+				}
+			}
 
 			//name
 			document.getElementById('title').innerHTML = resume.getElementsByTagName("name")[0].childNodes[0].nodeValue;
@@ -164,6 +183,17 @@
 		};
 		xhttp.open("GET", "resume.xml", true);
 		xhttp.send();
+	}
+
+	function getParameters() {
+		let parameters = [],
+			temp = window.location.search.substring(1).split('&');
+
+		for (let i = 0; i < temp.length; i++) {
+			parameters.push(temp[i].split('='));
+		}
+
+		return parameters;
 	}
 
 	function showContact() {
