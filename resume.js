@@ -19,8 +19,8 @@
 			}
 
 			if (can_edit) {
-				for (let i = 0, length = document.all.length; i < length; i++) {
-					document.all[i].contentEditable = true;
+				for (let i = 0, length = document.body.children.length; i < length; i++) {
+					document.body.children[i].contentEditable = true;
 				}
 			}
 
