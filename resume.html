@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title id="title"></title>
+		<link rel="stylesheet" type="text/css" href="resume.css" />
+		<script src="resume.js" defer="defer"></script>
+	</head>
+	
+	<body>
+		<form>
+			<fieldset>
+				<legend id="resume-name" style="font-size: 2em; font-weight: bold;"></legend>
+				<div class="sub-section">
+					<div style="float: left;">
+						<div>
+							<span>Linked in: </span>
+							<a id="linked-in" target="_blank"></a>
+						</div>
+						
+						<div>
+							<span>Portfolio: </span>
+							<a id="portfolio" target="_blank"></a>
+						</div>
+					</div>
+					
+					<!-- revealed before printing -->
+					<div id="contact-info" style="float: right; clear: right;">
+						<div id="email"></div>
+
+						<div id="phone"></div>
+					</div>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Qualifications</legend>
+				<div class="sub-section">
+					<div class="extra-bottom-space">
+						<span><strong>Summary: </strong><span id='qualifications-summary'></span></span>
+					</div>
+					
+					<div class="extra-bottom-space">
+						<span><strong>Languages: </strong><span id='qualifications-languages'></span></span>
+					</div>
+					
+					<div>
+						<span><strong>Recent Technologies: </strong><span id='qualifications-technologies'></span></span>
+					</div>
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Experience</legend>
+				<div id="experience" class="sub-section"></div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Education</legend>
+				<div id="education" class="sub-section"></div>
+			</fieldset>
+		</form>
+	</body>
+</html>

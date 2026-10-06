@@ -1,0 +1,84 @@
+/*
+resume.css
+
+css for resume
+*/
+
+body {
+	background-color: #A0A0A0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 21cm;
+}
+
+form {
+	background-color:#FFFFFF;
+}
+
+.item {
+	break-inside: avoid;
+	overflow: visible;
+}
+
+@media print {
+	body {
+		background-color: #FFFFFF;
+		font-size: 11px;
+	}
+	
+	legend {
+		background-color: #FFFFFF;
+	}
+}
+
+fieldset {
+	border-color: #F0F0F0;
+	border-radius: 5px;
+}
+
+fieldset:nth-child(2n) {
+	background-color: #F0F0F0;
+}
+
+fieldset legend {
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+fieldset:nth-child(2n) legend {
+	background: linear-gradient(#FFFFFF, #F0F0F0);
+}
+
+.item-heading {
+	font-size: 1.17em;
+	font-weight: bold;
+}
+
+.extra-bottom-space {
+	margin-bottom: 5px;
+}
+
+.vertical-spaced {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.secrets {
+	font-size: 1pt;
+	color: #FFFFFF;
+	font-family: redacted,webdings,wingdings;
+}
+
+.sub-section {
+	margin-left: 2%;
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h1, h2, h3, h4 {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	text-align: center;
+}
