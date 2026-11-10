@@ -112,13 +112,11 @@
 								text +=	"</ul>" +
 									"</div>";
 							}
-						text += "</div>";
 
-						if (can_edit) {
-							text += "<div class='secrets'><span>[Application Specific]</span></div>";
-						}
-
-					text += "</div>";
+						text +=
+						"</div>" +
+						"<div class='secrets'><span>" + jobs[j].getElementsByTagName("achievements")[0].childNodes[0].nodeValue + "</span></div>" +
+					"</div>";
 				experience_section.innerHTML += text;
 
 				if ((j + 1) < jobs.length) {
