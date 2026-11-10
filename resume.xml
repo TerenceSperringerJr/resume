@@ -14,7 +14,7 @@
 		<office>IHC</office>
 		<line>GFCE</line>
 	</phone>
-	<!--<portfolio>http://sites.google.com/site/maverickloneshark/</portfolio>-->
+
 	<portfolio>https://terencesperringerjr.github.io/web-portfolio/</portfolio>
 
 	<qualifications>
@@ -40,6 +40,7 @@
 					<task></task>
 				</tasks>
 			</role>
+			<achievements></achievements>
 		</job>
 		-->
 		
@@ -57,7 +58,7 @@
 				<!-- <title>Game Programmer & Developer</title> -->
 				<tools>Unity, Visual Studio, C#, Git, Windows</tools>
 				<tasks>
-					<task>Programming, debugging, and refactoring systems for PC games and experimental projects</task>
+					<task>Programming, debugging, refactoring, and optimizing systems for production of PC games and experimental projects</task>
 					<task>Utilizing Git source control versioning system</task>
 				</tasks>
 			</role>
@@ -75,6 +76,8 @@
 				</tasks>
 			</role>
 			-->
+
+			<achievements>Completed three team game jams, developing two ongoing projects, and continuously learning through experiments</achievements>
 		</job>
 		
 		<job>
@@ -96,6 +99,8 @@
 					<task>Utilized Git &amp; SVN source control versioning systems</task>
 				</tasks>
 			</role>
+
+			<achievements>Collaborated with senior engineers and cross-functional team members from various disciplines to develop and maintain Blue IG project</achievements>
 		</job>
 		
 		<job>
@@ -107,14 +112,14 @@
 			<position>Software Developer</position>
 			
 			<role>
-				<department> Department of Biomedical Informatics </department>
+				<department>Department of Biomedical Informatics</department>
 				<!-- <title>Software Developer</title> -->
 				<tools>C, C++, Java, JavaScript, HTML, CSS, JQuery, Bash, Slurm, Mapbox, Git, Windows, Linux</tools>
 				<tasks>
-					<task>Designed and developed research assistance software</task>
+					<task>Designed and developed research assistance software products</task>
 					<task>Created user documentation</task>
 					<task>Debugged and refactored code</task>
-					<task>Participated in daily scrums, client meetings, and planning meetings</task>
+					<task>Participated in daily scrums, client meetings, and planning meetings with collaborating engineers</task>
 					<task>Managed git code repositories</task>
 				</tasks>
 			</role>
@@ -156,6 +161,8 @@
 					<task>Developed front-end for Location Services web application</task>
 				</tasks>
 			</role>
+
+			<achievements>Collaborated with small programming team to develop, test, and deploy over four reliable in-house tools for assisting researchers</achievements>
 		</job>
 		
 		<job>
@@ -167,15 +174,17 @@
 			<position>Games Integration Engineer</position>
 			
 			<role>
-				<department>Sales Engineering</department>
+				<department>Sales Engineering Team</department>
 				<!-- <title>Games Integration Engineer</title> -->
 				<tools>JavaScript, C#, Unity, GREE Platform SDK</tools>
 				<tasks>
 					<task>Assisted high priority clients by communicating  via Skype, meeting clients in person, researching and suggesting methodologies for analytics, and play-testing apps to be reviewed for the Apple Store and Google Play Store</task>
-					<task>Created sample code and Unity3D demos to help third party developers integrate GREE's platform into their games as well as to assist in debugging client issues</task>
+					<task>Created sample code and Unity3D demos to help third party developers integrate GREE's platform into their games and products, and also assisted in debugging client issues</task>
 					<task>Assisted with internal support by reporting discovered issues, creating internal development requests, and resolving problems when capable of preventing unnecessary escalation</task>
 				</tasks>
 			</role>
+
+			<achievements>Met with shareholders and high priority stakeholders to sell technical merits of GREE's platform</achievements>
 		</job>
 		
 		<job>
@@ -192,7 +201,7 @@
 				<!-- <title>Interface and Database Programmer</title> -->
 				<tools>HTML, CSS, JavaScript, MySQL, PHP</tools>
 				<tasks>
-					<task>Designed and queried database, and programmed scripts for altruistic online community website</task>
+					<task>Collaborated with Kindworks team to design and program scripts for querying database and handling frontend for altruistic online community website</task>
 				</tasks>
 			</role>
 			
@@ -211,7 +220,7 @@
 				<tools>Unity, C#, JavaScript</tools>
 				<tasks>
 					<task>Programmed multiplayer networking and database access plugin for a team-run factory simulation</task>
-					<task>Assisted development of gameplay and interface elements</task>
+					<task>Assisted SIGMA team with the development of gameplay and interface elements</task>
 				</tasks>
 			</role>
 			
@@ -230,7 +239,7 @@
 				<tools>C, C++, OpenCV, Unity</tools>
 				<tasks>
 					<task>Prototyped an interactive crowd camera experience for the 2012 World Expo in Yeosu, South Korea</task>
-					<task>Traveled to Osaka, Japan to hand off project (three weeks' stay)</task>
+					<task>Traveled to Osaka, Japan to hand off project to the Japan team (three weeks' stay)</task>
 				</tasks>
 			</role>
 			
@@ -239,11 +248,13 @@
 				<!-- <title>Gameplay Programmer</title> -->
 				<tools>C#, Microsoft Silverlight</tools>
 				<tasks>
-					<task>Programmed an interactive early education app for the SMART Technologies SMART Table</task>
+					<task>Collaborated with the Intermediate Unit 1 Team to program an interactive early education app for the SMART Technologies SMART Table</task>
 				</tasks>
 			</role>
+
+			<achievements>Joined numerous cross-disciplinary teams to assist in engineering the completion of more than six projects for important clients under strict deadlines</achievements>
 		</job>
-		
+
 		<job>
 			<company>University of Pittsburgh</company>
 			<locations>
@@ -281,6 +292,8 @@
 				<department>Electrical and Computer Engineering Department</department>
 				<title>Computer Laboratory Assistant</title>
 			</role>
+
+			<achievements>Learned and grew from working part-time in six different university departments of various academic fields</achievements>
 		</job>
 	</work_experience>
 
